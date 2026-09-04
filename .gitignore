@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# The database is reproducible via `python scripts/seed_data.py`,
+# so it isn't committed by default.
+data/inventory.db
+data/*.db
+
+.DS_Store
+.streamlit/secrets.toml
+.vercel
